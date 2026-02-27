@@ -1,0 +1,6 @@
+total_entries: 200
+ERROR: 64
+INFO: 68
+WARN: 68
+mean_response_ms: 2583.9
+http_errors: 94

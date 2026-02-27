@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Full Assessment",
+      "setup": "",
+      "run": "bash .github/grading/grade.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 300,
+      "points": 100
+    }
+  ]
+}

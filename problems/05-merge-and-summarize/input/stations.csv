@@ -1,0 +1,6 @@
+station_id,station_name,latitude,longitude,elevation_m
+STN_A,Churchill Station,58.7684,-94.165,29
+STN_B,Thompson Station,55.7441,-97.8554,222
+STN_C,Winnipeg Station,49.8951,-97.1384,239
+STN_D,Brandon Station,49.8418,-99.9532,409
+STN_E,The Pas Station,53.8236,-101.2396,270

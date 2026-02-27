@@ -1,0 +1,22 @@
+name: Autograding
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Run grading
+        run: |
+          chmod +x .github/grading/grade.sh
+          bash .github/grading/grade.sh
