@@ -1,6 +1,4 @@
-# Problem 8: Optimize Search (10 points)
-
-**Tier:** Hard | **Est. time:** 20-40 minutes
+# Problem 8: Optimize Search
 
 ## Specification
 You are given a dataset of 50,000 geographic points (`input/points.csv`) with columns: `id`, `lat`, `lon`, `category`.

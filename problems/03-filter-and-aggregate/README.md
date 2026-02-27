@@ -1,6 +1,4 @@
-# Problem 3: Filter and Aggregate (15 points)
-
-**Tier:** Easy | **Est. time:** 5-10 minutes
+# Problem 3: Filter and Aggregate
 
 ## Specification
 Using the same `weather.csv` from Problem 2 (located at `problems/02-csv-column-mean/input/weather.csv`):

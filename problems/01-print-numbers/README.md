@@ -1,6 +1,4 @@
-# Problem 1: Print Numbers (5 points)
-
-**Tier:** Trivial | **Est. time:** 1-2 minutes
+# Problem 1: Print Numbers
 
 ## Specification
 Print the integers from 1 to 1000, one number per line.

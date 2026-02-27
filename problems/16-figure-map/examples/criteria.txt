@@ -1,0 +1,37 @@
+# Example Criteria for Map Submission
+
+A high-quality map submission should have:
+
+1. **Data Representation**
+   - All 5 stations plotted and labeled by name
+   - All geographic points plotted (colored by category)
+   - Geographic relationships are clear and accurate
+
+2. **Cartographic Elements**
+   - North arrow: Simple arrow or compass rose clearly indicating north
+   - Scale bar: Labeled with distances (km or miles), positioned clearly
+   - Coordinate grid: Latitude/longitude lines or UTM grid, labeled at edges
+   - Map boundary: Clear extent of the map area
+
+3. **Visual Design**
+   - Station locations distinct from point categories (different marker shape/size)
+   - Colors for point categories are distinct and accessible
+   - Legend showing:
+     - Station names or markers
+     - Categories of points with colors
+   - Professional appearance, not cluttered
+
+4. **Labeling**
+   - All 5 station names labeled on the map (readable, not overlapping if possible)
+   - Legend clearly showing point categories
+   - Title: "Manitoba: Station and Point Distribution"
+
+5. **Geographic Accuracy**
+   - Points appear in correct relative positions
+   - Bounding box appropriately covers all data
+   - Coordinates/projection clearly labeled or implied
+
+6. **Technical Quality**
+   - High resolution (≥300 dpi for print, or 96 dpi at minimum 350 pixels wide)
+   - Saved as PNG with good compression
+   - Map dimensions appropriate for a journal figure (~150mm × 150mm for square, or ~180mm × 120mm for landscape)

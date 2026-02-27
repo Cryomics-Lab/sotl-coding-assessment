@@ -1,0 +1,32 @@
+# Example Criteria for Scatterplot Submission
+
+A high-quality scatterplot submission should have:
+
+1. **Data Representation**
+   - Points plotted for all valid observations (exclude rows with missing temp_c or snow_depth_cm)
+   - Points distinctly colored by station
+   - Trend line visible and appropriate for the data
+
+2. **Handling Overplotting**
+   - If many points overlap, use transparency (alpha) or smaller point sizes
+   - Alternatively, use jitter or 2D density contours
+   - Ensure all data is visible despite overlapping
+
+3. **Visual Design**
+   - Clear color scheme distinguishing stations
+   - Appropriate point size (not too large, not invisible)
+   - Legend clearly labeled with station names
+
+4. **Trend Line**
+   - Linear regression line or LOWESS smoother (must be explicitly noted)
+   - Confidence interval or standard error band (optional but recommended)
+   - Extends across the full range of data
+
+5. **Labels and Title**
+   - Clear axis labels with units
+   - Descriptive title
+   - Legend positioned appropriately (not obscuring data)
+
+6. **Technical Quality**
+   - High resolution (≥300 dpi for print, or 96 dpi at minimum 350 pixels wide)
+   - Saved as PNG with good compression

@@ -1,6 +1,4 @@
-# Problem 2: CSV Column Mean (10 points)
-
-**Tier:** Easy | **Est. time:** 3-5 minutes
+# Problem 2: CSV Column Mean
 
 ## Specification
 Read the weather data in `input/weather.csv` and compute the mean of the `temp_c` column across all 365 rows.

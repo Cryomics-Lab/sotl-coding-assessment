@@ -1,6 +1,4 @@
-# Problem 6: Moving Average (15 points)
-
-**Tier:** Medium | **Est. time:** 15-25 minutes
+# Problem 6: Moving Average
 
 ## Specification
 Using the observations data from Problem 5 (`problems/05-merge-and-summarize/input/observations.csv`):

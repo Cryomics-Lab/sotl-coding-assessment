@@ -1,0 +1,32 @@
+# Example Criteria for Bar Chart Submission
+
+A high-quality bar chart submission should have:
+
+1. **Data Representation**
+   - Bars for each combination of status code and log level
+   - Bars grouped logically (status codes on X, levels grouped within each status)
+   - All status codes present in the data are represented
+
+2. **Sorting**
+   - X-axis sorted numerically by status code (e.g., 200, 201, 400, 401, 500)
+   - Status codes clearly labeled on X-axis
+
+3. **Visual Design**
+   - Distinct colors for each log level (ERROR, INFO, WARN)
+   - Clear visual separation between bars
+   - Appropriate spacing and sizing
+
+4. **Error Indication**
+   - Visual distinction or callout for error status codes (400+)
+   - Examples: different fill pattern, highlight color, or annotation
+   - Helps readers quickly identify problematic responses
+
+5. **Labels and Legend**
+   - Clear axis labels with appropriate names
+   - Descriptive title
+   - Legend clearly showing which color = which log level
+   - Y-axis shows count values
+
+6. **Technical Quality**
+   - High resolution (≥300 dpi for print, or 96 dpi at minimum 350 pixels wide)
+   - Saved as PNG with good compression

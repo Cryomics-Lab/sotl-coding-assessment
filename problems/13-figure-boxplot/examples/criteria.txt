@@ -1,0 +1,30 @@
+# Example Criteria for Boxplot Submission
+
+A high-quality boxplot submission should have:
+
+1. **Data Representation**
+   - Shows box (interquartile range), median line, whiskers, and outliers
+   - Covers all 5 stations with distinct visual separation
+   - No data points are missing or incorrectly aggregated
+
+2. **Visual Design**
+   - Clean, uncluttered appearance
+   - Appropriate font sizes (readable but not oversized)
+   - Consistent use of white or neutral background
+   - Professional color scheme (e.g., ColorBrewer Set 2, Okabe-Ito palette)
+
+3. **Labels and Titles**
+   - Clear, descriptive title
+   - Y-axis labeled with units ("Temperature (°C)")
+   - X-axis labeled or directly showing station names
+   - No abbreviations unless necessary
+
+4. **Technical Quality**
+   - High resolution (≥300 dpi for print, or 96 dpi at minimum 350 pixels wide)
+   - Saved as PNG with good compression
+   - No compression artifacts or blurriness
+
+Example layouts:
+- 1 panel with 5 boxplots side-by-side
+- 1 panel with all stations, color-coded, labels on axes
+- Margins/padding appropriate for integration into a document

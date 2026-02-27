@@ -1,6 +1,4 @@
-# Problem 7: Debug Off-by-One (10 points)
-
-**Tier:** Hard | **Est. time:** 20-40 minutes
+# Problem 7: Debug Off-by-One
 
 ## Specification
 The file `buggy_code/` contains a program (available in Python and R) that is supposed to:

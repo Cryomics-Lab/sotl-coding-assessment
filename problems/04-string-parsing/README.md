@@ -1,6 +1,4 @@
-# Problem 4: String Parsing (15 points)
-
-**Tier:** Medium | **Est. time:** 10-15 minutes
+# Problem 4: String Parsing
 
 ## Specification
 Parse the server log file at `input/logfile.txt`. Each line follows this format:

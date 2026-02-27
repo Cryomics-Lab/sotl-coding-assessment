@@ -1,0 +1,101 @@
+date,distance,temperature,station_id
+2025-07-02,23.1,-22°C,STN_A
+18-Jan-2025,24.7,82.4 F,stn_b 
+04-Jan-2025,30700.0 mi,-6°C,stn_b
+09-Jan-2025,49,-22°C,stn_b
+January 17 2025,27800.0 mi,84.2 °F,stn_a 
+January 23 2025,46100 m,51.8 F,stn_b
+2025-11-11,28.6,12°C,stn_b 
+2025-07-26,2200 m,NA,stn_a 
+January 10 2025,NA,10.399999999999999 F,stn_b 
+08/04/2025,28500 m,20,STN_A
+January 14 2025,3600.0 mi,25°C,stn_a
+January 23 2025,27.8,missing,stn_a 
+2025-03-22,N/A,-23°C,STN_A
+09/09/2025,-999,,stn_a 
+2025-06-20,31600.0 mi,42.8 °F,Stn_A 
+12/11/2025,26.5,null,stn_b
+06/08/2025,17200.0 mi,64.4 °F,stn_b
+2025-09-27,-999,80.6 °F,stn_b 
+January 22 2025,40.0 km,4,STN_A
+17-Jan-2025,15500 m,-25 C,stn_a
+2025-09-18,11300 m,-3 C,stn_a
+24-Jan-2025,47000 m,missing,Stn_A 
+02/02/2025,28.3,28,STN_B
+13-Jan-2025,20.1 km,51.8 °F,STN_A
+2025-10-02,25600.0 mi,12.2 °F,STN_A 
+13-Jan-2025,2500 m,-22°C,stn_b 
+January 5 2025,45800.0 mi,-22.0 °F,stn_b 
+01-Jan-2025,47400.0 mi,17,stn_a
+11/28/2025,N/A,6.800000000000001 F,STN_A 
+2025-10-28,46.7,5 C,Stn_A
+05/04/2025,24900.0 mi,53.6 F,STN_A 
+January 7 2025,17100.0 mi,-5.8 °F,stn_b
+06/14/2025,N/A,15°C,Stn_A
+January 22 2025,23700.0 mi,33.8 °F,STN_A 
+January 3 2025,7.9,missing,STN_A
+2025-01-28,29.4,-18.4 °F,Stn_A
+09/16/2025,11.9,10.399999999999999 F,STN_B
+January 13 2025,33.5,64.4 °F,stn_a
+03/19/2025,24700.0 mi,,stn_a 
+2025-06-08,26400.0 mi,28°C,STN_A 
+2025-11-11,26500.0 mi,6.8 °F,stn_b
+21-Jan-2025,33.0 km,21.2 F,stn_b
+16-Jan-2025,1300 m,-16 C,stn_b
+04/05/2025,null,-9.399999999999999 F,STN_B
+04-Jan-2025,24.5,,STN_A 
+03/19/2025,null,null,stn_a 
+06-Jan-2025,28.6 km,16,STN_A 
+16-Jan-2025,,68.0 °F,stn_a
+09/09/2025,18,-14.799999999999997 F,STN_B
+02/01/2025,46,8 C,stn_a
+2025-10-20,27.0 km,missing,stn_a
+2025-09-27,39,-7 C,stn_b
+26-Jan-2025,40.4,N/A,Stn_A
+2025-04-28,44,-30 C,stn_b
+01-Jan-2025,34700.0 mi,-11.200000000000003 F,STN_B
+09-Jan-2025,31,24.8 °F,stn_b
+18-Jan-2025,16000.0 mi,23.0 F,STN_A
+08/26/2025,null,15.8 °F,stn_b
+12/02/2025,32.2 km,32.0 °F,STN_B 
+January 8 2025,NA,29°C,stn_b
+2025-05-23,41,-0.4 °F,Stn_A 
+10/17/2025,34000.0 mi,-22.0 F,STN_A
+12-Jan-2025,10.8 km,-26 C,stn_b 
+January 19 2025,41000 m,-18°C,STN_B
+06-Jan-2025,28.4,30 C,stn_b
+January 27 2025,48.3,-15,STN_B
+2025-10-28,14,3.1999999999999993 F,Stn_A
+2025-06-17,13900.0 mi,missing,Stn_A 
+January 16 2025,44800.0 mi,missing,stn_a
+04/08/2025,11100 m,73.4 °F,Stn_A 
+2025-02-04,33.5,null,STN_A
+January 20 2025,49.3,33.8 F,stn_b 
+04/25/2025,,4 C,stn_b
+11/25/2025,6.9,14 C,STN_A
+2025-07-19,31000.0 mi,-999,stn_a 
+January 11 2025,,14,Stn_A
+05/15/2025,49000 m,16,stn_a
+07/07/2025,37,-19°C,STN_B 
+January 17 2025,15.7,-27°C,STN_A
+January 7 2025,32,-14,Stn_A
+2025-05-12,18.2,null,stn_b 
+January 12 2025,25,21.2 °F,Stn_A
+03/28/2025,46,6°C,STN_A 
+January 8 2025,15300.0 mi,-5,STN_B
+24-Jan-2025,10.0 km,N/A,Stn_A
+2025-12-24,20.5 km,,stn_b 
+2025-07-17,null,missing,STN_B
+January 24 2025,7.2,-29 C,Stn_A
+28-Jan-2025,43700.0 mi,-7.6 °F,stn_a
+21-Jan-2025,32300.0 mi,32.0 °F,stn_a
+January 10 2025,8.6 km,N/A,Stn_A 
+01-Jan-2025,24.4 km,21,stn_b 
+January 18 2025,null,5.0 F,STN_B
+2025-04-09,12.7,13,Stn_A
+January 26 2025,42800 m,NA,STN_B
+23-Jan-2025,NA,null,STN_A 
+January 10 2025,,-16 C,stn_a 
+11-Jan-2025,40200.0 mi,20 C,Stn_A 
+January 2 2025,4,-999,STN_B
+02/25/2025,48800 m,-18.4 F,STN_B

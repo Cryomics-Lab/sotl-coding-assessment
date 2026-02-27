@@ -1,6 +1,4 @@
-# Problem 5: Merge and Summarize (20 points)
-
-**Tier:** Medium | **Est. time:** 15-25 minutes
+# Problem 5: Merge and Summarize
 
 ## Specification
 Two data files are provided:
