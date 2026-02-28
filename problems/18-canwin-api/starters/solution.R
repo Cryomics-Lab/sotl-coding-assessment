@@ -1,4 +1,4 @@
-# Problem 20: CanWIN ERDDAP API — BaySys Ice Beacon Data
+# Problem 18: CanWIN ERDDAP API — BaySys Ice Beacon Data
 # Download ice beacon data via ERDDAP and summarize beacon movement.
 
 # You may want: library(rerddap) or just read.csv() on the URL
@@ -27,5 +27,5 @@ haversine <- function(lat1, lon1, lat2, lon2) {
 # Step 4: Group by beacon_ID, compute stats
 
 # Step 5: Write output
-output_path <- "problems/20-canwin-api/output.csv"
+output_path <- "problems/18-canwin-api/output.csv"
 # write.csv(result, output_path, row.names = FALSE)

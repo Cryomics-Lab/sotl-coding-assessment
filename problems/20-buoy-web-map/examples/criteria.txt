@@ -1,0 +1,8 @@
+Qualitative Review Criteria — Problem 20: Interactive Web Map
+
+1. Map is interactive (pan, zoom)
+2. All beacons are displayed with distinct colors or styles
+3. Clicking/hovering reveals beacon ID and timestamp
+4. Legend or labels present
+5. App runs with a single command (documented in RUN.md)
+6. Bonus: time slider, animation playback, satellite basemap, responsive design

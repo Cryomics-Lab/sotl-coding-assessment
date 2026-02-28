@@ -11,8 +11,8 @@ AUTO_PASSED=0
 AUTO_TOTAL=14
 FIGURES_SUBMITTED=0
 FIGURES_TOTAL=4
-API_PASSED=0
-API_TOTAL=2
+STRETCH_SUBMITTED=0
+STRETCH_TOTAL=2
 
 # Function to compare files
 compare_files() {
@@ -250,33 +250,62 @@ echo "DATA ACQUISITION PROBLEMS"
 echo "========================================"
 echo ""
 
-# Problem 19: Weather Data Download
-if [ -f "$PROBLEMS_DIR/19-weather-data-download/output.csv" ]; then
-    if [ -f "$PROBLEMS_DIR/19-weather-data-download/expected/output.csv" ]; then
-        if diff -q "$PROBLEMS_DIR/19-weather-data-download/output.csv" "$PROBLEMS_DIR/19-weather-data-download/expected/output.csv" > /dev/null 2>&1; then
-            echo "PASS: Problem 19 — Weather Data Download"
+# Problem 17: Weather Data Download
+if [ -f "$PROBLEMS_DIR/17-weather-data-download/output.csv" ]; then
+    if [ -f "$PROBLEMS_DIR/17-weather-data-download/expected/output.csv" ]; then
+        if diff -q "$PROBLEMS_DIR/17-weather-data-download/output.csv" "$PROBLEMS_DIR/17-weather-data-download/expected/output.csv" > /dev/null 2>&1; then
+            echo "PASS: Problem 17 — Weather Data Download"
             ((AUTO_PASSED++))
         else
-            echo "FAIL: Problem 19 — Weather Data Download"
+            echo "FAIL: Problem 17 — Weather Data Download"
         fi
     fi
 else
-    echo "MISSING: Problem 19 — Weather Data Download"
+    echo "MISSING: Problem 17 — Weather Data Download"
 fi
 
-# Problem 20: CanWIN API
-if [ -f "$PROBLEMS_DIR/20-canwin-api/output.csv" ]; then
-    if [ -f "$PROBLEMS_DIR/20-canwin-api/expected/validate.sh" ]; then
-        RESULT=$(bash "$PROBLEMS_DIR/20-canwin-api/expected/validate.sh" "$PROBLEMS_DIR/20-canwin-api/output.csv")
+# Problem 18: CanWIN API
+if [ -f "$PROBLEMS_DIR/18-canwin-api/output.csv" ]; then
+    if [ -f "$PROBLEMS_DIR/18-canwin-api/expected/validate.sh" ]; then
+        RESULT=$(bash "$PROBLEMS_DIR/18-canwin-api/expected/validate.sh" "$PROBLEMS_DIR/18-canwin-api/output.csv")
         if echo "$RESULT" | grep -q "^PASS"; then
-            echo "PASS: Problem 20 — CanWIN API ($RESULT)"
+            echo "PASS: Problem 18 — CanWIN API ($RESULT)"
             ((AUTO_PASSED++))
         else
-            echo "FAIL: Problem 20 — CanWIN API ($RESULT)"
+            echo "FAIL: Problem 18 — CanWIN API ($RESULT)"
         fi
     fi
 else
-    echo "MISSING: Problem 20 — CanWIN API"
+    echo "MISSING: Problem 18 — CanWIN API"
+fi
+
+echo ""
+echo "========================================"
+echo "STRETCH GOALS (Qualitative Review)"
+echo "========================================"
+echo ""
+
+# Problem 19: Buoy Animation
+ANIM_FILE=""
+for ext in gif mp4 html; do
+    if [ -f "$PROBLEMS_DIR/19-buoy-animation/animation.$ext" ]; then
+        ANIM_FILE="animation.$ext"
+        break
+    fi
+done
+if [ -n "$ANIM_FILE" ]; then
+    echo "SUBMITTED: Problem 19 — Buoy Animation ($ANIM_FILE)"
+    ((STRETCH_SUBMITTED++))
+else
+    echo "NOT SUBMITTED: Problem 19 — Buoy Animation"
+fi
+
+# Problem 20: Buoy Web Map
+if [ -f "$PROBLEMS_DIR/20-buoy-web-map/index.html" ]; then
+    echo "SUBMITTED: Problem 20 — Buoy Web Map"
+    ((STRETCH_SUBMITTED++))
+else
+    echo "NOT SUBMITTED: Problem 20 — Buoy Web Map"
 fi
 
 echo ""
@@ -323,6 +352,6 @@ echo "SUMMARY"
 echo "========================================"
 echo "Auto-graded: $AUTO_PASSED/$AUTO_TOTAL passed"
 echo "Figures submitted: $FIGURES_SUBMITTED/$FIGURES_TOTAL"
-echo "Data acquisition: included in auto-graded count"
+echo "Stretch goals: $STRETCH_SUBMITTED/$STRETCH_TOTAL submitted"
 echo "========================================"
 

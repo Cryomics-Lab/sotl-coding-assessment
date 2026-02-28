@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Problem 20: CanWIN ERDDAP API — BaySys Ice Beacon Data
+Problem 18: CanWIN ERDDAP API — BaySys Ice Beacon Data
 Download ice beacon data via ERDDAP and summarize beacon movement.
 """
 import csv
@@ -29,7 +29,7 @@ def haversine(lat1, lon1, lat2, lon2):
     return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
 # Step 4: Write output
-output_path = "problems/20-canwin-api/output.csv"
+output_path = "problems/18-canwin-api/output.csv"
 # with open(output_path, 'w', newline='') as f:
 #     writer = csv.writer(f)
 #     writer.writerow(["beacon_id", "n_observations", "mean_lat", "mean_lon", "total_distance_km"])

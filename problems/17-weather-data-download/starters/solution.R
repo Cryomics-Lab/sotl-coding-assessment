@@ -1,4 +1,4 @@
-# Problem 19: Download Weather Data from Environment Canada
+# Problem 17: Download Weather Data from Environment Canada
 # Download 2017 daily data for Churchill A and compute monthly mean temperatures.
 
 # You may want: library(weathercan) or just download.file()
@@ -14,5 +14,5 @@
 # df <- read.csv("churchill_2017.csv", skip = 0)
 
 # Step 4: Write output
-output_path <- "problems/19-weather-data-download/output.csv"
+output_path <- "problems/17-weather-data-download/output.csv"
 # write.csv(result, output_path, row.names = FALSE)

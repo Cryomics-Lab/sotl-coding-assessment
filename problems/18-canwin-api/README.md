@@ -1,4 +1,4 @@
-# Problem 20: CanWIN ERDDAP API — BaySys Ice Beacon Data
+# Problem 18: CanWIN ERDDAP API — BaySys Ice Beacon Data
 
 ## Specification
 Use the **CanWIN ERDDAP API** to download ice beacon tracking data from the BaySys project, then summarize beacon movement.
@@ -25,7 +25,7 @@ Your task:
 To compute distance between two lat/lon points, use the Haversine formula with Earth radius = 6371 km.
 
 ## Output
-Save to: `problems/20-canwin-api/output.csv`
+Save to: `problems/18-canwin-api/output.csv`
 
 ```
 beacon_id,n_observations,mean_lat,mean_lon,total_distance_km

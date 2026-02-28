@@ -1,4 +1,4 @@
-# Problem 19: Download Weather Data from Environment Canada
+# Problem 17: Download Weather Data from Environment Canada
 
 ## Specification
 Download the **2017 daily weather data** for **Churchill A** (Manitoba) from Environment and Climate Change Canada's historical climate data service.
@@ -16,7 +16,7 @@ Your task:
 - Some days have missing temperature data — only average over days with valid `Mean Temp (°C)` values
 
 ## Output
-Save to: `problems/19-weather-data-download/output.csv`
+Save to: `problems/17-weather-data-download/output.csv`
 
 ```
 month,mean_temp_c,n_observations

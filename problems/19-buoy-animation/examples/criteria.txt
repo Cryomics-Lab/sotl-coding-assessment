@@ -1,0 +1,8 @@
+Qualitative Review Criteria — Problem 19: Buoy Animation
+
+1. Animation shows beacon position changing over time
+2. Timestamp or time indicator is present
+3. Trail or breadcrumb of previous positions is visible
+4. Geographic context (axis labels, coordinates, or basemap)
+5. Animation is smooth and interpretable
+6. Bonus: basemap background, scale bar, title, legend
