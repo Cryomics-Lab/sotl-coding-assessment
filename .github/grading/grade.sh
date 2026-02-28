@@ -1,16 +1,18 @@
 #!/bin/bash
 
 # Grading script for SoTL AI-Assisted Coding Assessment
-# This script checks all 16 problems and produces a report.
+# This script checks all 20 problems and produces a report.
 
 BASE_DIR="$(cd "$(dirname "$0")/../.." && pwd)"
 PROBLEMS_DIR="$BASE_DIR/problems"
 
 # Initialize counters
 AUTO_PASSED=0
-AUTO_TOTAL=12
+AUTO_TOTAL=14
 FIGURES_SUBMITTED=0
 FIGURES_TOTAL=4
+API_PASSED=0
+API_TOTAL=2
 
 # Function to compare files
 compare_files() {
@@ -244,6 +246,41 @@ fi
 
 echo ""
 echo "========================================"
+echo "DATA ACQUISITION PROBLEMS"
+echo "========================================"
+echo ""
+
+# Problem 19: Weather Data Download
+if [ -f "$PROBLEMS_DIR/19-weather-data-download/output.csv" ]; then
+    if [ -f "$PROBLEMS_DIR/19-weather-data-download/expected/output.csv" ]; then
+        if diff -q "$PROBLEMS_DIR/19-weather-data-download/output.csv" "$PROBLEMS_DIR/19-weather-data-download/expected/output.csv" > /dev/null 2>&1; then
+            echo "PASS: Problem 19 — Weather Data Download"
+            ((AUTO_PASSED++))
+        else
+            echo "FAIL: Problem 19 — Weather Data Download"
+        fi
+    fi
+else
+    echo "MISSING: Problem 19 — Weather Data Download"
+fi
+
+# Problem 20: CanWIN API
+if [ -f "$PROBLEMS_DIR/20-canwin-api/output.csv" ]; then
+    if [ -f "$PROBLEMS_DIR/20-canwin-api/expected/validate.sh" ]; then
+        RESULT=$(bash "$PROBLEMS_DIR/20-canwin-api/expected/validate.sh" "$PROBLEMS_DIR/20-canwin-api/output.csv")
+        if echo "$RESULT" | grep -q "^PASS"; then
+            echo "PASS: Problem 20 — CanWIN API ($RESULT)"
+            ((AUTO_PASSED++))
+        else
+            echo "FAIL: Problem 20 — CanWIN API ($RESULT)"
+        fi
+    fi
+else
+    echo "MISSING: Problem 20 — CanWIN API"
+fi
+
+echo ""
+echo "========================================"
 echo "FIGURE SUBMISSIONS (Qualitative Review)"
 echo "========================================"
 echo ""
@@ -286,5 +323,6 @@ echo "SUMMARY"
 echo "========================================"
 echo "Auto-graded: $AUTO_PASSED/$AUTO_TOTAL passed"
 echo "Figures submitted: $FIGURES_SUBMITTED/$FIGURES_TOTAL"
+echo "Data acquisition: included in auto-graded count"
 echo "========================================"
 

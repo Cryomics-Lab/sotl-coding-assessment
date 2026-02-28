@@ -1,9 +1,9 @@
 # SoTL AI-Assisted Coding Assessment
 
 ## Overview
-This assessment contains 16 coding problems. Complete as many as you can within the 2-hour time limit. You may work in **any programming language** — only your output files are graded.
+This assessment contains 20 coding problems. Complete as many as you can within the 2-hour time limit. You may work in **any programming language** — only your output files are graded.
 
-Problems 1–12 are auto-graded (your output is compared to a known correct answer). Problems 13–16 are figure generation tasks that will be reviewed qualitatively.
+Problems 1–12 are auto-graded (your output is compared to a known correct answer). Problems 13–16 are figure generation tasks that will be reviewed qualitatively. Problems 17–18 are reserved. Problems 19–20 are data acquisition tasks that require downloading data from external sources (internet access required).
 
 ## How It Works
 1. Each problem is in its own folder under `problems/`
@@ -33,6 +33,10 @@ Problems 1–12 are auto-graded (your output is compared to a known correct answ
 | 14 | Scatterplot — Temp vs. Snow Depth | Figure (reviewed) |
 | 15 | Bar Chart — HTTP Status by Log Level | Figure (reviewed) |
 | 16 | Map — Manitoba Stations & Points | Figure (reviewed) |
+| 17 | *Reserved* | — |
+| 18 | *Reserved* | — |
+| 19 | Download Weather Data (Environment Canada) | Data acquisition (auto-graded) |
+| 20 | CanWIN ERDDAP API — BaySys Ice Beacons | Data acquisition (validated) |
 
 ## Starter Templates
 Each problem has optional starter templates in `starters/` for Python and R. You are not required to use them.
@@ -41,5 +45,5 @@ Each problem has optional starter templates in `starters/` for Python and R. You
 - You may use any programming language
 - Auto-graded problems: only your output files are graded (not your code)
 - Figure problems: save your figure as a PNG file as specified
-- Internet access is allowed for documentation lookups
+- Internet access is allowed for documentation lookups and required for Problems 19–20
 - Commit and push frequently — only your latest push is graded
